@@ -38,7 +38,7 @@ A Personal Reading Tracker and Book Management System developed using Java, HTML
 ### Storage
 - books.txt
 
-### Concepts Implemented 
+### Concepts Implemented
 - Object-Oriented Programming
 - REST APIs
 - CRUD Operations
@@ -47,7 +47,7 @@ A Personal Reading Tracker and Book Management System developed using Java, HTML
 
 ---
 
-## 🏗 System Architecture ##⚙ How to Run
+## 🏗 System Architecture
 
 ```text
 User Interface
@@ -61,37 +61,78 @@ BookService
 ArrayList<Book>
       ↓
 books.txt
+```
 
+---
 
-📌 REST API Endpoints
+## 📌 REST API Endpoints
 
-| Method | Endpoint   | Function                |
-| ------ | ---------- | ----------------------- |
-| GET    | /books     | Retrieve all books      |
-| POST   | /books     | Add a new book          |
-| PUT    | /books?id= | Update reading progress |
-| DELETE | /books?id= | Delete a book           |
+| Method | Endpoint | Function |
+|----------|----------|----------|
+| GET | /books | Retrieve all books |
+| POST | /books | Add a new book |
+| PUT | /books?id= | Update reading progress |
+| DELETE | /books?id= | Delete a book |
 
+---
 
-##⚙ How to Run
-Compile Java files:
+## ⚙ How to Run
+
+### Step 1: Compile Java Files
+
+```bash
 javac *.java
+```
 
-Run server:
+### Step 2: Run Server
+
+```bash
 java BookServer
+```
 
-Open browser:
+### Step 3: Open Browser
+
+```text
 http://localhost:5500
+```
 
+---
 
-##🔮 Future Enhancements
-Database integration
-Authentication system
-Cloud deployment
-AI book recommendations
-Reading analytics
-Mobile application
+## 📋 Functional Workflow
 
-👩‍💻 Author
+1. User enters book details  
+2. Book is stored in ArrayList<Book>  
+3. Data is saved into books.txt  
+4. Library dashboard displays books  
+5. User can search/filter books  
+6. Progress can be updated  
+7. Books can be deleted  
+
+---
+
+## 📚 Learning Outcomes
+
+- Implemented CRUD operations
+- Worked with REST APIs
+- Applied Data Structures using ArrayList
+- Learned File Handling
+- Integrated frontend and backend
+- Built Java HTTP server
+- Understood client-server architecture
+
+---
+
+## 🔮 Future Enhancements
+
+- Database integration (MySQL/PostgreSQL)
+- Authentication system
+- Cloud deployment
+- AI book recommendations
+- Reading analytics
+- Mobile application
+
+---
+
+## 👩‍💻 Author
 
 Susmitha Pasumarthi
